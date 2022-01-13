@@ -16,7 +16,7 @@ def crack(inputHash):
                         testedHash = hashlib.md5(attemptedPIN.encode("utf-8")).hexdigest()
                         
                         # If the tested hash is the same as the input one,
-                        # return the attempted PIN as the PIN has been guessed.
+                        # return the attempted PIN as it has been guessed.
                         if (testedHash==inputHash): return attemptedPIN
 
 # Test harness.
