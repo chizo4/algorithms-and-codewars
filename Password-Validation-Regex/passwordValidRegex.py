@@ -19,7 +19,3 @@ def validPassword(pswrd):
     
     # Otherwise, the input password is not valid.
     return False
-
-# Test harness.
-print(validPassword('aTest01')) # True
-print(validPassword('invalidp@ssword')) # False
