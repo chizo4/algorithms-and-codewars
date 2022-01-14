@@ -3,7 +3,7 @@
 
 # Function to
 def snailSort():
-    pass
+    return 0
 
 # Test harness.
-print()
+print(snailSort())
