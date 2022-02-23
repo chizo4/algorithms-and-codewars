@@ -1,5 +1,8 @@
-# Written by: Filip J. Cierkosz
-# Date: 06/2021
+'''
+Date: 06/2021
+
+@author Filip J. Cierkosz
+'''
 
 import hashlib
 

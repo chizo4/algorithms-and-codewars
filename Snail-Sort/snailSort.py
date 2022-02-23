@@ -1,5 +1,8 @@
-# Written by: Filip J. Cierkosz
-# Date: 01/2022
+'''
+Date: 01/2022
+
+@author Filip J. Cierkosz
+'''
 
 import numpy as np
 

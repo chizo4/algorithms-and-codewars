@@ -1,5 +1,8 @@
-# Written by: Filip J. Cierkosz
-# Date: 11/2021
+'''
+Date: 11/2021
+
+@author Filip J. Cierkosz
+'''
 
 # Function to turn string input into hash.
 def str_to_hash(s):

@@ -1,5 +1,8 @@
-# Written by: Filip J. Cierkosz
-# Date: 06/2021
+'''
+Date: 06/2021
+
+@author Filip J. Cierkosz
+'''
 
 # Function to sort only odd numbers in the array so that all the even
 # elements are left untouched.

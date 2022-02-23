@@ -1,5 +1,8 @@
-# Written by: Filip J. Cierkosz
-# Date: 05/2021
+'''
+Date: 05/2021
+
+@author Filip J. Cierkosz
+'''
 
 # Function to subtract one list from another.
 def arraySubtract(one, two):
