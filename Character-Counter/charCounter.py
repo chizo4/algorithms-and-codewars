@@ -1,5 +1,8 @@
-# Written by: Filip J. Cierkosz
-# Date: 11/2021
+'''
+Date: 11/2021
+
+@author Filip J. Cierkosz
+'''
 
 # Function to count the number of a character in a string 
 # implementing lambda and dictionary comprehension.

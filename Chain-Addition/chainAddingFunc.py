@@ -1,5 +1,8 @@
-# Written by: Filip J. Cierkosz
-# Date: 05/2021
+'''
+Date: 05/2021
+
+@author Filip J. Cierkosz
+'''
 
 # Implementation of chain adding function.
 class add(int):

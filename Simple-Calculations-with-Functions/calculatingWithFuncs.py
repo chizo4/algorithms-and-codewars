@@ -1,5 +1,8 @@
-# Written by: Filip J. Cierkosz
-# Date: 08/2021
+'''
+Date: 08/2021
+
+@author Filip J. Cierkosz
+'''
 
 # Make simple math calculations using functions.
 

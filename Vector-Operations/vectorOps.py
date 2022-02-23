@@ -1,6 +1,10 @@
-# Written by: Filip J. Cierkosz
-# Date created: 06/2021
-# Date edited: 01/2022
+'''
+Date created: 06/2021
+
+Date edited: 01/2022
+
+@author Filip J. Cierkosz
+'''
 
 import numpy as np
 

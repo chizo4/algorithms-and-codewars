@@ -1,5 +1,8 @@
-# Written by: Filip J. Cierkosz
-# Date: 12/2021
+'''
+Date: 12/2021
+
+@author Filip J. Cierkosz
+'''
 
 # Please note: The purpose of creating this program is not to promote
 # any kind of illegal practice.

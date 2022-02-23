@@ -1,5 +1,8 @@
-# Written by: Filip J. Cierkosz
-# Date: 02/2022
+'''
+Date: 02/2022
+
+@author Filip J. Cierkosz
+'''
 
 # General Idea
 # Convert time in seconds to human readable time in form:
