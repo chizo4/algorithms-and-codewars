@@ -1,6 +1,6 @@
-[<img align="right" alt="Codewars FJC" width="200px" src="https://www.codewars.com/users/chizo4/badges/large" />][codewars]
+[<img align="right" alt="Codewars FJC Badge" width="400px" src="https://www.codewars.com/users/chizo4/badges/large" />][codewars]
 
-# Codewars-Projects
+## Codewars-Projects
 
 The repository contains some of the interesting algorithms that I either published as solutions to problems on codewars.com, or encountered for any other reasons.
 
