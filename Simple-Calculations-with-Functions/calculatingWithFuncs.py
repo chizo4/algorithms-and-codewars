@@ -19,14 +19,10 @@ eight = lambda f=None: f(8) if (f) else 8
 nine = lambda f=None: f(9) if (f) else 9
 
 # Mathematical operations.
-# Addition.
-def add(b): return lambda a: a+b
-# Subtraction.
-def sub(b): return lambda a: a-b
-# Multiplication
-def mult(b): return lambda a: a*b
-# Division.
-def div(b): return lambda a: int(a/b)
+def add(b): return lambda a: a+b           # Addition.
+def sub(b): return lambda a: a-b           # Subtraction.
+def mult(b): return lambda a: a*b          # Multiplication
+def div(b): return lambda a: int(a/b)      # Division.
 
 # Test harness.
 print(six(mult(nine())))     # returns 54

@@ -10,13 +10,11 @@ import numpy as np
 
 #~~~~~~~~~~VECTOR CLASS~~~~~~~~~~
 class Vector:
-    #~~~~~~~~~~CONSTRUCTOR~~~~~~~~~~
-    # Initialize a vector class instance.
+    # Class constructor.
     def __init__(self, inputVals):
         self.vals = np.array(inputVals)
         self.length = np.array(inputVals).size
 
-    #~~~~~~~~~~METHODS~~~~~~~~~~
     # Method 1: Display the vector object as a string.
     def __str__(self):
         return f'{self.vals}'.replace('[', '(').replace(']', ')')
@@ -35,7 +33,6 @@ class Vector:
         if (self.checkSize(other)):
             v = (self.vals).__add__(other.vals)
             return Vector(v)
-        # Otherwise, raise an exception.
         else:
             raise Exception('An error occurred while attempting to perform addition!')
 
@@ -45,7 +42,6 @@ class Vector:
         if (self.checkSize(other)):
             v = (self.vals).__sub__(other.vals)
             return Vector(v)
-        # Otherwise, raise an exception.
         else:
             raise Exception('An error occurred while attempting to perform subtraction!')
 
@@ -54,7 +50,6 @@ class Vector:
         if (self.checkSize(other)):
             v = (self.vals).__mul__(other.vals)
             return Vector(v)
-        # Otherwise, raise an exception.
         else:
             raise Exception('An error occurred while attempting to calculate the dot product!')
 
@@ -63,11 +58,8 @@ class Vector:
 
 # Test harness.
 def main():
-    # Initialize two vectors.
     vecOne = Vector([1, 2, 3])
     vecTwo = Vector([4, 5, 6])
-
-    # Print vectors.
     print(vecOne)
     print(vecTwo)
 

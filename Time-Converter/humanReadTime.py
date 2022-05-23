@@ -17,10 +17,8 @@ checkIfPl = lambda val: 's' if (val>1) else ''
 
 # Function 2: Convert seconds to human readable time.
 def getHumanReadableTime(sec):
-    # If the sec eqauls zero, return 'now'.
     if (sec==0): return 'now'
 
-    # Determine value of seconds, minutes, hours, days, years.
     m, s = divmod(sec, 60)
     h, m = divmod(m, 60)
     d, h = divmod(h, 24)
@@ -32,11 +30,8 @@ def getHumanReadableTime(sec):
     timeDict = {'year': y, 'day': d, 'hour': h, 'minute': m, 'second': s}
     timeDict = {key: val for key, val in timeDict.items() if (val>0)}
 
-    # Initialize the output string.
     humanReadTime = ''
 
-    # Iterate through the keys and indexes of the dictionary in
-    # order to prepare the final expression.
     for i, key in enumerate(timeDict):
         if (i==len(timeDict)-1):
             humanReadTime += f'{timeDict[key]} {key}{checkIfPl(timeDict[key])}.'
@@ -45,12 +40,10 @@ def getHumanReadableTime(sec):
         else: 
             humanReadTime += f'{timeDict[key]} {key}{checkIfPl(timeDict[key])}, '
 
-    # Return the final output string.
     return humanReadTime
 
 # Function 3: Invoke the function on 10 random integers 1-1000000000.
 def main():
-    # Iterate and test.
     for i in range(10):
         currInt = randint(1,1000000000)
         print(f'{currInt} seconds is equivalent to:')

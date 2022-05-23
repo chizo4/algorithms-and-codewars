@@ -17,7 +17,6 @@ def passwordCracker(hash, n):
     # Iterate through different lengths to create possible guesses.
     for i in range(1, n+1):
         for i in product(ascii_lowercase, repeat=i):
-            # Create a guess joining the elements of a tuple.
             guess = ''.join(i)
 
             # Create a SHA1 hash object.

@@ -8,7 +8,6 @@ import hashlib
 
 # Function to guess 5-digit PIN.
 def crack(inputHash):
-    # Iterate through different digits.
     for i in range(10):
         for j in range(10):
             for k in range(10):

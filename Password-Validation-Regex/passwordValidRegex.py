@@ -11,7 +11,7 @@ import re
 # one uppercase letter, one lowercase letter, and one digit.
 # It cannot contain any special signs.
 def validPassword(pswrd):
-    # Define the regular expression.
+    # Regex pattern.
     regex = "^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])[A-Za-z0-9]{6,}$"
 
     # Check if the input matches the pattern.

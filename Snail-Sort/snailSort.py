@@ -13,11 +13,9 @@ def snail(arrIn):
     if (len(arrIn)<2):
         return arrIn[0]
     else:
-        # Initialize an appropriately-sized array.
         arrSnail = np.empty(int(len(arrIn[0])**2), dtype=int)
         currIndex = 0
 
-        # Initialize the idexes of columns and rows.
         rowUp = 0
         colRight = len(arrIn[0])-1
         rowBottom = len(arrIn)-1
@@ -59,7 +57,6 @@ def snail(arrIn):
             # Increment the column, i.e. go one column to the right.
             colLeft += 1
 
-        # Return the snail-sorted array.
         return arrSnail
 
 # Test harness.

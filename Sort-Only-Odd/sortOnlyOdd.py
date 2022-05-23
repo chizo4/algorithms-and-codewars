@@ -7,7 +7,6 @@ Date: 06/2021
 # Function to sort only odd numbers in the array so that all the even
 # elements are left untouched.
 def sortArr(arr):
-    # Create an array of sorted odd numbers from the input array.
     arrOddSort = sorted([i for i in arr if (i%2==1)])
     index = 0
 
@@ -18,7 +17,6 @@ def sortArr(arr):
             arr[i] = arrOddSort[index]
             index += 1 
 
-    # Return the appropriately sorted array.
     return arr
 
 # Test harness.
