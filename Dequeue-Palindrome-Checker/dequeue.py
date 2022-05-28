@@ -20,7 +20,7 @@ class Dequeue:
         '''
         self.elements = []
 
-    def getSize(self):
+    def get_size(self):
         '''
         Returns the size of the Dequeue.
 
@@ -28,14 +28,14 @@ class Dequeue:
         '''
         return len(self.elements)
 
-    def isEmpty(self):
+    def is_empty(self):
         '''
         Returns a boolean describing if the Dequeue is (not) empty. 
         The runtime is O(1).
         '''
         return (self.elements==[])
 
-    def addFront(self, el):
+    def add_front(self, el):
         '''
         Adds an element into the 0th index (front) of the list. The runtime 
         is O(n), since every element has to shift by one position when a new 
@@ -43,7 +43,7 @@ class Dequeue:
         '''
         self.elements.insert(0, el)
 
-    def removeFront(self):
+    def remove_front(self):
         '''
         Removes an element from the 0th index of the list. The runtime is
         O(n), since the elements have to be shifted after removing the very 
@@ -53,7 +53,7 @@ class Dequeue:
             return self.elements.pop(0)
         return None
 
-    def getFrontEl(self):
+    def get_front_el(self):
         '''
         Returns the value from the front of the Dequeue. The runtime is
         O(1), since it is just indexing.
@@ -62,14 +62,14 @@ class Dequeue:
             return self.elements[0]
         return None
 
-    def addBack(self, el):
+    def add_back(self, el):
         '''
         Adds an item to the last index (back) of the list. The runtime is 
         O(1), since there is no need to shift any other elements in the list.
         '''
         self.elements.append(el)
 
-    def removeBack(self):
+    def remove_back(self):
         '''
         Removes an item from the last index (back) of the list. The runtime 
         is O(1).
@@ -78,7 +78,7 @@ class Dequeue:
             return self.elements.pop()
         return None
 
-    def getBackEl(self):
+    def get_back_el(self):
         '''
         Get the element from the back of the Dequeue. The runtime is O(1).
         '''

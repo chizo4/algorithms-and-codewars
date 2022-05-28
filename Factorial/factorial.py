@@ -1,7 +1,11 @@
 '''
+Factorial by recursion.
+
+factorial.py
+
 Date: 07/2021
 
-@author Filip J. Cierkosz
+Author: Filip J. Cierkosz
 '''
 
 import sys
@@ -18,4 +22,4 @@ def factorial(n):
 # Test harness.
 # A separate datafile is created to write the result of the factorial
 # function, since the number might be huge.
-print(factorial(3000), file=open("factorialWrite.txt", "w"))
+print(factorial(3000), file=open("factorial_write.txt", "w"))
